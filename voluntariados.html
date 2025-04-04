@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto Medioambiental</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1><a href="index.html">Proyecto Medioambiental</a></h1>
+        <h1>Voluntariados</h1>
+        <nav>
+            <ul>
+                <li><a href="#crear-evento">Crear Evento</a></li>
+                <li><a href="#eventos">Eventos Programados</a></li>
+                <li><a href="#galeria">Galería</a></li>
+                <li><a href="foro.html"> Foro</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="crear-evento">
+            <h2>Crear un Nuevo Evento</h2>
+            <form>
+                <label for="nombre">Nombre del Evento:</label>
+                <input type="text" id="nombre" name="nombre" required>
+                
+                <label for="fecha">Fecha:</label>
+                <input type="date" id="fecha" name="fecha" required>
+                
+                <label for="hora">Hora:</label>
+                <input type="time" id="hora" name="hora" required>
+                
+                <label for="ubicacion">Ubicación:</label>
+                <input type="text" id="ubicacion" name="ubicacion" required>
+                
+                <label for="descripcion">Descripción:</label>
+                <textarea id="descripcion" name="descripcion" required></textarea>
+                
+                <button type="submit">Crear Evento</button>
+            </form>
+        </section>
+        
+        <section id="eventos">
+            <h2>Eventos Programados</h2>
+            <article>
+                <h3>Limpieza de Playa</h3>
+                <p><strong>Fecha:</strong> 15 de abril de 2025</p>
+                <p><strong>Hora:</strong> 9:00 AM</p>
+                <p><strong>Ubicación:</strong> Playa El Chaco</p>
+                <p><strong>Descripción:</strong> Únete a nuestro equipo para limpiar la playa y proteger la vida marina.</p>
+                <button>Inscribirse</button>
+            </article>
+            
+            <article>
+                <h3>Reforestación Urbana</h3>
+                <p><strong>Fecha:</strong> 22 de abril de 2025</p>
+                <p><strong>Hora:</strong> 10:00 AM</p>
+                <p><strong>Ubicación:</strong> Parque Central</p>
+                <p><strong>Descripción:</strong> Ayuda a plantar árboles en la ciudad y mejora el aire que respiramos.</p>
+                <button>Inscribirse</button>
+            </article>
+        </section>
+        
+        <section id="galeria">
+            <h2>Galería de Eventos Pasados</h2>
+            <div class="imagenes">
+                <img src="evento1.jpg" alt="Evento de limpieza de playa">
+                <img src="evento2.jpg" alt="Jóvenes plantando árboles">
+                <img src="evento3.jpg" alt="Grupo recogiendo basura en un parque">
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2025 Proyecto Medioambiental. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>

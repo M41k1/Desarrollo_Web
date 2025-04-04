@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foro - Proyecto Medioambiental</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1><a href="index.html">Proyecto Medioambiental</a></h1>
+        <nav>
+            <ul>
+                <li><a href="voluntariados.html"> Voluntariados</a></li>
+                <li><a href="basura.html"> Basura y Contaminación</a></li>
+                <li><a href="reciclaje.html"> Reciclaje</a></li>
+                <li><a href="agua.html"> Cuidado del Agua</a></li>
+                <li><a href="areas-verdes.html"> Áreas Verdes</a></li>
+                <li><a href="contacto.html"> Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="foro">
+            <h2>Foro de Discusión</h2>
+            <p>Comparte tus ideas, experiencias y dudas sobre cómo mejorar el medio ambiente.</p>
+            
+            <form id="formulario-foro">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required><br><br>
+                
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" rows="4" required></textarea><br><br>
+                
+                <button type="submit">Publicar</button>
+            </form>
+            
+            <section id="publicaciones">
+                <h3>Mensajes Recientes</h3>
+                <ul id="lista-mensajes">
+                    <li><strong>Ana:</strong> ¡Me encanta la iniciativa! ¿Cuándo será el próximo voluntariado?</li>
+                    <li><strong>Carlos:</strong> Sería genial organizar una recolección de botellas plásticas en el parque.</li>
+                </ul>
+            </section>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2025 Proyecto Medioambiental. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
