@@ -1,83 +1,91 @@
-/* Reset default margin and padding */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+*{
+    font-family: 'Poppins', sans-serif;
 }
-
-/* Body styling */
-body {
-    background-color: #f0f0f0;
-    font-family: Arial, sans-serif;
+body{
+    background-image: url("https://images.pexels.com/photos/66869/green-leaf-natural-wallpaper-royalty-free-66869.jpeg?cs=srgb&dl=pexels-pixabay-66869.jpg&fm=jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+.box{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    min-height: 90vh;
 }
-
-/* Login container */
-.login-container {
-    background-color: #fff;
-    border-radius: 10px;
-    padding: 20px;
-    width: 300px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+.container{
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    padding: 0 15px 0 15px;
 }
-
-/* Title of login form */
-.login-container h2 {
-    text-align: center;
-    margin-bottom: 20px;
-    font-size: 24px;
+span{
+    color: #fff;
+    font-size: small;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0 15px 0;
 }
-
-/* Input group styling */
-.input-group {
+header{
+    color: #fff;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    padding: 0 0 15px 0; 
+}
+.input-field{
+    display: flex;
+    flex-direction: column;
     margin-bottom: 15px;
 }
-
-.input-group label {
-    display: block;
-    font-size: 14px;
-    color: #333;
-    margin-bottom: 5px;
-}
-
-.input-group input {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    font-size: 16px;
-}
-
-/* Button styling */
-.btn {
-    width: 100%;
-    padding: 12px;
-    background-color: #4CAF50;
-    color: white;
+.input-field .input{
+    height: 45px;
+    width: 87%;
     border: none;
-    border-radius: 5px;
-    font-size: 16px;
+    outline: none;
+    border-radius: 30px;
+    color: #fff;
+    padding: 0 0 0 42px;
+    background: rgba(255,255,255,0.1);
+}
+i{
+    position: relative;
+    top: -31px;
+    left: 17px;
+    color: #fff;
+}
+::-webkit-input-placeholder{
+    color: #fff;
+}
+.submit{
+    border: none;
+    border-radius: 30px;
+    font-size: 15px;
+    height: 45px;
+    outline: none;
+    width: 100%;
+    background: rgba(255,255,255,0.7);
     cursor: pointer;
+    transition: .3s;
 }
-
-.btn:hover {
-    background-color: #45a049;
+.submit:hover{
+    box-shadow: 1px 5px 7px 1px rgba(0, 0, 0, 0.2);
 }
-
-/* Register link styling */
-.register-link {
-    text-align: center;
-    margin-top: 20px;
+.bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: small;
+    color: #fff;
+    margin-top: 10px;
 }
-
-.register-link a {
-    color: #4CAF50;
+.left{
+    display: flex;
+}
+label a{
+    color: #fff;
     text-decoration: none;
-}
-
-.register-link a:hover {
-    text-decoration: underline;
-}
+}                                          
+                                         
+            
