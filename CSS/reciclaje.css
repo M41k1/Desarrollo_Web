@@ -1,18 +1,15 @@
-/* Reset global */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Body */
 body {
     font-family: 'Poppins', sans-serif;
     background-color: #e0f7fa;
     color: #333;
 }
 
-/* Header */
 header {
     background-color: #01579B;
     color: #fff;
@@ -54,12 +51,10 @@ header nav ul li a:hover {
     color: #64DD17;
 }
 
-/* Main Content */
 main {
     padding: 40px 20px;
 }
 
-/* Reciclaje Section */
 #reciclaje {
     background-color: #ffffff;
     border-radius: 8px;
@@ -104,7 +99,6 @@ section p {
     line-height: 1.5;
 }
 
-/* Footer */
 footer {
     background-color: #01579B;
     color: #fff;
@@ -113,7 +107,6 @@ footer {
     font-size: 14px;
 }
 
-/* Responsive */
 @media screen and (max-width: 768px) {
     header h1 {
         font-size: 28px;

@@ -1,18 +1,15 @@
-/* Reset global */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* Body */
 body {
   font-family: 'Poppins', sans-serif;
   background-color: #e0f7fa;
   color: #333;
 }
 
-/* Header */
 header {
   background-color: #01579B;
   color: #fff;
@@ -53,12 +50,10 @@ header nav ul li a:hover {
   color: #64DD17;
 }
 
-/* Main Content */
 main {
   padding: 40px 20px;
 }
 
-/* Sección de Bienvenida */
 #inicio {
   background-color: #ffffff;
   border-radius: 8px;
@@ -83,7 +78,6 @@ main {
   text-align: center;
 }
 
-/* Sección Misión y Visión */
 #mision-vision {
   display: flex;
   justify-content: space-around;
@@ -120,7 +114,6 @@ main {
   color: #333;
 }
 
-/* Sección de Galería de Eventos */
 #galeria-eventos {
   text-align: center;
   margin-bottom: 40px;
@@ -157,7 +150,6 @@ main {
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
-/* Footer */
 footer {
   background-color: #01579B;
   color: #fff;
@@ -166,7 +158,6 @@ footer {
   font-size: 14px;
 }
 
-/* Responsive */
 @media screen and (max-width: 768px) {
   header h1 {
       font-size: 28px;

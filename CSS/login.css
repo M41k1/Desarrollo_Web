@@ -20,9 +20,9 @@ body{
     flex-direction: column;
     padding: 0 15px 0 15px;
 }
-span{
-    color: #fff;
-    font-size: small;
+h1{
+    color: #ffffff;
+    font-size: 30px;
     display: flex;
     justify-content: center;
     padding: 10px 0 15px 0;

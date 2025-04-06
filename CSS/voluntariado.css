@@ -1,18 +1,15 @@
-/* Reset global */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Body */
 body {
     font-family: 'Poppins', sans-serif;
     background-color: #e0f7fa;
     color: #333;
 }
 
-/* Header */
 header {
     background-color: #01579B;
     color: #fff;
@@ -53,12 +50,10 @@ header nav ul li a:hover {
     color: #64DD17;
 }
 
-/* Main Content */
 main {
     padding: 40px 20px;
 }
 
-/* Crear Evento Section */
 #crear-evento {
     background-color: #ffffff;
     border-radius: 8px;
@@ -109,7 +104,6 @@ form button:hover {
     background-color: #388e3c;
 }
 
-/* Eventos Programados Section */
 #eventos {
     margin-top: 40px;
 }
@@ -156,7 +150,6 @@ form button:hover {
     background-color: #388e3c;
 }
 
-/* Galería Section */
 #galeria {
     margin-top: 40px;
     text-align: center;
@@ -185,7 +178,6 @@ form button:hover {
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
-/* Footer */
 footer {
     background-color: #01579B;
     color: #fff;
@@ -194,7 +186,6 @@ footer {
     font-size: 14px;
 }
 
-/* Responsive */
 @media screen and (max-width: 768px) {
     header h1 {
         font-size: 28px;

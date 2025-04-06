@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Eco Green</title>
   <link rel="stylesheet" href="../CSS/index.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
   <header>
@@ -28,7 +29,7 @@
       <h2>Bienvenido</h2>
       <p>Únete a nuestra comunidad para contribuir con el cuidado del medio ambiente. En este espacio encontrarás información sobre cómo puedes ayudar a reducir la contaminación, participar en voluntariados y adoptar hábitos ecológicos.</p>
     </section>
-
+    
     <section id="mision-vision">
       <h2>Misión y Visión</h2>
 
@@ -47,9 +48,25 @@
       <h2>Eventos Destacados</h2>
       <p>A lo largo del año realizamos diversas actividades en favor del medio ambiente. Aquí puedes ver imágenes de algunos de nuestros eventos más recientes.</p>
       <div class="imagenes">
-        <img src="../IMG/voluntariado1.jpeg" alt="Limpieza de playa" width="300" height="200"/>
-        <img src="../IMG/voluntariado2.jpg" alt="Voluntarios reforestando" width="300" height="200" />
-        <img src="../IMG/voluntariado3.jpg" alt="Jornada de reciclaje" width="300" height="200"/>
+        
+        <picture>
+          <source srcset="../IMG/voluntariado1.jpeg" media="(min-width: 1024px)">
+          <source srcset="../IMG/voluntariado1.jpeg" media="(min-width: 600px)">
+          <img src="../IMG/voluntariado1.jpeg" alt="Limpieza de playa" width="300" height="200">
+        </picture>
+        
+        <picture>
+          <source srcset="../IMG/voluntariado2.jpg" media="(min-width: 1024px)">
+          <source srcset="../IMG/voluntariado2.jpg" media="(min-width: 600px)">
+          <img src="../IMG/voluntariado2.jpg" alt="Voluntarios reforestando" width="300" height="200">
+        </picture>
+        
+        <picture>
+          <source srcset="../IMG/voluntariado3.jpg" media="(min-width: 1024px)">
+          <source srcset="../IMG/voluntariado3.jpg" media="(min-width: 600px)">
+          <img src="../IMG/voluntariado3.jpg" alt="Jornada de reciclaje" width="300" height="200">
+        </picture>
+        
       </div>
     </section>
   </main>
