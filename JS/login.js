@@ -8,8 +8,7 @@ toggleLink.addEventListener("click", (e) => {
   
   const isLoginVisible = loginForm.style.display !== "none";
 
-  // Quiero evitar hacer un montón de branching por usar el short-hand if else (a ? b : c)
-  // así que separé todo con una sola evaluación, no debería cambiar nada - Sebastián
+
   if (isLoginVisible) {
     loginForm.style.display = "none";
     registerForm.style.display = "block";
