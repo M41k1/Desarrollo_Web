@@ -6,9 +6,14 @@ const formTitle = document.getElementById("form-title");
 toggleLink.addEventListener("click", (e) => {
   e.preventDefault();
 
+<<<<<<< HEAD
   // Quiero evitar hacer un montón de branching por usar el short-hand if else (a ? b : c)
   // así que separé todo con una sola evaluación, no debería cambiar nada - Sebastián
   if (loginForm.style.display !== "none") {
+=======
+
+  if (isLoginVisible) {
+>>>>>>> bc827c78b10719bef6a822daef7545f7c3570e2d
     loginForm.style.display = "none";
     registerForm.style.display = "block";
     formTitle.textContent =  "Crear Cuenta";
