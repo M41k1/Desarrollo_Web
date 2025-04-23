@@ -18,15 +18,15 @@
       
       <form id="login-form">
         <div class="input-field">
-          <input type="text" class="input" placeholder="Usuario" required />
+          <input type="text" class="input" placeholder="Usuario" required id="login_username" />
           <i class="bx bx-user"></i>
         </div>
         <div class="input-field">
-          <input type="password" class="input" placeholder="Contraseña" required />
+          <input type="password" class="input" placeholder="Contraseña" required id="login_password" />
           <i class="bx bx-lock-alt"></i>
         </div>
         <div class="input-field">
-          <input type="submit" class="submit" value="Iniciar Sesión" />
+          <button onclick="Login()">Iniciar Sesión</button>
         </div>
         <div class="bottom">
           <div class="left">
@@ -78,6 +78,7 @@
     </div>
   </div>
 
+  <script src="../JS/JQuery.js"></script>
   <script src="../JS/login.js"></script>
 </body>
 </html>
