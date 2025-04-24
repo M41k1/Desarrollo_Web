@@ -27,18 +27,17 @@ $( document ).ready(function() {
         $.ajax({
               url: "http://localhost:8080/login", // Replace with your actual endpoint URL
               type: "GET",
-              data: { name: "adm", password: "12345" }, // Optional data to send
+              data: { name: document.getElementById("login_username").value, password: document.getElementById("login_password").value }, // Optional data to send
               success: function(response) {
                 // Handle the response from the Java method
-                console.log("Response from Java:", response);// sleep time expects milliseconds
-                function sleep (time) {
-                  return new Promise((resolve) => setTimeout(resolve, time));
+                //console.log("Response from Java:", response);
+                if (true == response) {
+                  alert("Login successful!")
+                  window.location.replace("index.html");
+                } else {
+                  alert("Incorrect login!")
                 }
                 
-                // Usage!
-                sleep(1000).then(() => {
-                    // Do something after the sleep!
-                });
                 // Update UI or perform other actions
               },
               error: function(xhr, status, error) {
